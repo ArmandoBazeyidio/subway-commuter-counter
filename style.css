@@ -1,0 +1,66 @@
+body{
+    margin-top: 150px;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    background-image: url("background.jpg");
+    background-position: center;  
+}
+
+button{
+    font:inherit;
+    width: 250px;
+    height:50px;
+    color:rgb(255, 255, 255);
+    border-radius: 6px;
+    font-size: larger;
+    font-weight:bold;
+}
+
+#increment-btn{
+    background:darkgreen;
+}
+
+#delete-btn{
+    margin-top: 5px;
+    background: darkred;
+}
+
+p{
+    font-weight: bold;
+    text-shadow:0px 0px 10px rgb(255, 255, 255);
+}
+h1, h2{
+    font-size: 50px;
+    text-shadow:0px 0px 10px rgb(255, 255, 255);
+}
+
+#save-btn{
+    margin-top: 5px;
+    background:darkgreen;
+}
+#save-btn:hover{
+    background:grey;
+    width: 255px;
+
+}
+#increment-btn:hover{
+    background: grey;
+    width: 255px;
+}
+
+#delete-btn:hover{
+    background: grey;
+    width: 255px;
+}
+
+.hero-section{
+    display:block;
+    margin: 0px auto 0 auto;
+    background: white;
+    width: 400px;
+    height: 430px;
+    border-radius: 6px;
+    padding: 10px 0 25px 0;
+    border: 5px solid black;
+}
